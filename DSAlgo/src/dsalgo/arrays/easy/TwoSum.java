@@ -1,4 +1,4 @@
-package dsalgo.easy.arrays;
+package dsalgo.arrays.easy;
 
 public class TwoSum {
     //leetcode link:https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/546/

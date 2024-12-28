@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dsalgo.easy.arrays;
+package dsalgo.arrays.easy;
 
 /**
  *
@@ -22,9 +22,8 @@ public class SingleNumber {
 
     public static void main(String args[]) {
         int singleno = singleNumber(new int[]{1, 1, 2, 3, 3});
-        String s="A man, a plan, a canal: Panama";
         
-        System.out.print(s.replaceAll("[^A-Za-z0-9]",""));
+        System.out.print("singleno::"+singleno);
     }
 
     //logic explanation
