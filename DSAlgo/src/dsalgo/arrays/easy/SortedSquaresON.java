@@ -15,6 +15,9 @@ public class SortedSquaresON {
         //leetcode :https://leetcode.com/problems/squares-of-a-sorted-array/submissions/1487944233
         int[] sortedNums = new int[nums.length];
         int i = 0, j = nums.length - 1, k = sortedNums.length - 1;
+        //[-4,-1,0,3,10]
+        //logic taking greater of two squares and placing in new array from end of array
+        //its a 2 pointer technique
 
         while (i <= j) {
             int sorted = 0;
